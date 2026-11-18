@@ -1,0 +1,15 @@
+# Prompt 2: Conditional Retrieval and Product Updates
+
+## AI Prompt Used
+
+Help me implement the following operations in my Java JDBC Inventory Management System using MySQL and PreparedStatement:
+
+1. Accept a product category and display products belonging to that category with quantity less than 20, sorted by price in descending order.
+2. Accept a product ID and quantity to add to the existing stock.
+3. Accept a product ID and new price, check whether the product exists, and update the price only if the new price is greater than zero. Display the updated product details.
+
+Use appropriate SQL queries and display suitable messages for successful and unsuccessful operations.
+
+## Brief Reflection
+
+This prompt helped me understand conditional SQL queries, filtering, sorting and updating database records. I learned how to use `WHERE`, `ORDER BY` and parameterized SQL statements. I also understood how to validate prices and check whether a product exists before updating it.

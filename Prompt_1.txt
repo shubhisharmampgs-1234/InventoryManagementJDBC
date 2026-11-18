@@ -1,0 +1,9 @@
+# Prompt 1: JDBC Connection and Product Insertion
+
+## AI Prompt Used
+
+Help me create a menu-driven Java JDBC application connected to a MySQL database named `retail_db`. The application should establish a database connection and insert at least three product records into the `Product` table using `PreparedStatement`. It should also handle duplicate product IDs appropriately and display suitable messages.
+
+## Brief Reflection
+
+This prompt helped me understand how Java connects to a MySQL database using JDBC. I learned how to use `DriverManager`, `Connection` and `PreparedStatement` to insert records and handle duplicate primary keys. I verified the functionality by inserting three products and attempting to insert the same IDs again.

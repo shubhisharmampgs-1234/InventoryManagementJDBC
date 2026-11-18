@@ -1,0 +1,15 @@
+# Prompt 3: Inventory Valuation and Conditional Deletion
+
+## AI Prompt Used
+
+Help me implement the following operations in my Java JDBC Inventory Management System using MySQL and PreparedStatement:
+
+1. Calculate the total inventory value using the SQL aggregate function `SUM(quantity * price)`.
+2. Accept a product ID and check whether the product exists.
+3. Delete the product only if its quantity is exactly zero.
+4. If the quantity is greater than zero, prevent deletion and display an appropriate message.
+5. Display suitable messages for successful deletion and unsuccessful deletion.
+
+## Brief Reflection
+
+This prompt helped me understand SQL aggregate functions and conditional deletion. I learned how to use `SUM()` to calculate inventory value and how to check product quantity before deleting a record. I tested both successful deletion and deletion restricted due to available stock.
